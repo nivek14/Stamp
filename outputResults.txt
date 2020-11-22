@@ -1,0 +1,28 @@
+Executing: ./bayes/bayes -v32 -r4096 -n10 -p40 -i2 -e8 -s1 -t 16
+Executing: ./genome/genome -g16384 -s64 -n16777216 -t 16
+Executing: ./intruder/intruder -a10 -l128 -n262144 -s1 -t 16
+Executing: ./kmeans/kmeans -m40 -n40 -t0.00001 -i kmeans/inputs/random-n65536-d32-c16.txt -p 16
+Executing: ./kmeans/kmeans -m15 -n15 -t0.00001 -i kmeans/inputs/random-n65536-d32-c16.txt -p 16
+Executing: ./labyrinth/labyrinth -i labyrinth/inputs/random-x512-y512-z7-n512.txt -t 16
+Executing: ./ssca2/ssca2 -s20 -i1.0 -u1.0 -l3 -p3 -t 16
+Executing: ./vacation/vacation -n2 -q90 -u98 -r1048576 -t4194304 -c 16
+Executing: ./vacation/vacation -n4 -q60 -u90 -r1048576 -t4194304 -c 16
+Executing: ./yada/yada -a15 -i yada/inputs/ttimeu1000000.2 -t 16
+Executing: ./bayes/bayes -v32 -r4096 -n10 -p40 -i2 -e8 -s1 -t 16
+Random seed                = 1
+Number of vars             = 32
+Number of records          = 4096
+Max num parents            = 10
+% chance of parent         = 40
+Insert penalty             = 2
+Max num edge learned / var = 8
+Operation quality factor   = 1.000000
+Generating data... done.
+Generating adtree... done.
+Adtree time = 11.464710
+Learning structure...Executing: ./genome/genome -g16384 -s64 -n16777216 -t 16
+Creating gene and segments... done.
+Gene length     = 16384
+Segment length  = 64
+Number segments = 16777216
+Sequencing gene... 
